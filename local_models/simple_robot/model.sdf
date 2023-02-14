@@ -10,7 +10,6 @@
             <inertial>
                 <mass>1.5</mass>
                 <pose>0 0.020 5 0 0 0</pose>
-                <!-- <pose>0 0.020 0.042686 0 0 0</pose> -->
                 <inertia>
                     <ixx>5</ixx>
                     <ixy>0</ixy>
@@ -81,14 +80,14 @@
             <pose relative_to="__model__">0 0 0 0 0 0</pose> 
             <inertial>
                 <pose>0.09610 0.020 0.029 0 0 0</pose>
-                <mass>0.25</mass>
+                <mass>6.202</mass>
                 <inertia>
-                    <ixx>0.000015498371</ixx>
+                    <ixx>4.586e-04</ixx>
                     <ixy>0</ixy>
                     <ixz>0</ixz>
-                    <iyy>0.000008440253</iyy>
+                    <iyy>4.586e-04</iyy>
                     <iyz>0</iyz>
-                    <izz>0.000008440255</izz>
+                    <izz>1.52e-04</izz>
                 </inertia>
             </inertial>
             <visual name='visual'>
@@ -118,14 +117,14 @@
             <pose relative_to="__model__">0 0 0 0 0 0</pose> 
             <inertial>
                 <pose>0.09610 0.020 0.029 0 0 0</pose>
-                <mass>0.25</mass>
+                <mass>6.202</mass>
                 <inertia>
-                    <ixx>0.000015498371</ixx>
+                    <ixx>4.586e-04</ixx>
                     <ixy>0</ixy>
                     <ixz>0</ixz>
-                    <iyy>0.000008440253</iyy>
+                    <iyy>4.586e-04</iyy>
                     <iyz>0</iyz>
-                    <izz>0.000008440255</izz>
+                    <izz>1.52e-04</izz>
                 </inertia>
             </inertial>
             <visual name='visual'>
@@ -192,8 +191,8 @@
             name="ignition::gazebo::systems::DiffDrive">
             <left_joint>left_wheel_joint</left_joint>
             <right_joint>right_wheel_joint</right_joint>
-            <wheel_separation>10e-3</wheel_separation>
-            <wheel_radius>15e-3</wheel_radius>
+            <wheel_separation>0.4</wheel_separation>
+            <wheel_radius>0.07</wheel_radius>
             <odom_publish_frequency>1</odom_publish_frequency>
             <topic>cmd_vel</topic>
             <odom_topic>odometry</odom_topic>
