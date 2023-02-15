@@ -35,7 +35,9 @@ If you have installed <strong>Yakuake</strong> in your system you can use
 ```
 
 <p>
-for a more easy start of the simulation and your Gazebo2Robocomp component all in one.
+for a more easy start of the simulation and your Gazebo2Robocomp component all in one. <br>
+Remember to change the paths in run_basic.sh from where the world and your 
+Gazebo2Robocomp component are located on your system.
 </p>
 
 <p>
