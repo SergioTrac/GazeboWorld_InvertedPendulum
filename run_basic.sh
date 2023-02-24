@@ -39,5 +39,5 @@ sleep 1
 
 #---------------------JOYSTICK PUBLISHER------------------------
 
-qdbus org.kde.yakuake /yakuake/sessions runCommandInTerminal 3 "cd ~/robocomp/components/robocomp-robolab/components/hardware/external_control/joystickpublish"
-qdbus org.kde.yakuake /yakuake/sessions runCommandInTerminal 3 "bin/JoystickPublish etc/config_gazebo"
+qdbus org.kde.yakuake /yakuake/sessions runCommandInTerminal 2 "cd ~/robocomp/components/robocomp-robolab/components/hardware/external_control/joystickpublish"
+qdbus org.kde.yakuake /yakuake/sessions runCommandInTerminal 2 "bin/JoystickPublish etc/config_gazebo"
