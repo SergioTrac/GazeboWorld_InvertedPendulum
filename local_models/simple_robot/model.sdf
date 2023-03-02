@@ -195,7 +195,6 @@
             <wheel_radius>0.07</wheel_radius>
             <odom_publish_frequency>1</odom_publish_frequency>
             <topic>cmd_vel</topic>
-            <odom_topic>odometry</odom_topic>
         </plugin>
 
     </model>
